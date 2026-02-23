@@ -14,7 +14,7 @@ export default function PrivacyPage() {
         <div className="mb-8">
           <h1 className="text-3xl font-bold tracking-tight">Privacy Policy</h1>
           <p className="mt-2 text-sm text-muted-foreground">
-            {COMPANY.name} d/b/a {COMPANY.dba}
+            {COMPANY.name}
           </p>
           <p className="mt-1 text-sm text-muted-foreground">
             Last updated: {lastUpdated}
@@ -24,8 +24,7 @@ export default function PrivacyPage() {
         <article className="space-y-8">
           <Section title="1. Introduction">
             <p>
-              Digital Ranch Technologies LLC (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;),
-              operating under the trade name RANCHGRIT, is committed to
+              Digital Ranch Technologies LLC (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) is committed to
               protecting your privacy. This Privacy Policy explains how we
               collect, use, disclose, and safeguard your information when you
               visit our website or use our services.
@@ -238,8 +237,6 @@ export default function PrivacyPage() {
             </p>
             <p>
               <strong>{COMPANY.name}</strong>
-              <br />
-              d/b/a <strong>{COMPANY.dba}</strong>
               <br />
               Email:{' '}
               <a

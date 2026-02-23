@@ -11,7 +11,7 @@ const services = [
     icon: BrainCircuit,
     title: 'AI-Powered Decision Support',
     description:
-      'Our AI assistant, COLT, helps operators process information faster, surface insights from herd data, and stay ahead of operational needs.',
+      'Intelligent tools that help operators process information faster, surface insights from herd data, and stay ahead of operational needs.',
   },
   {
     icon: BarChart3,

@@ -6,17 +6,15 @@ export function CTASection() {
           Ready to modernize your ranch operations?
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-base leading-7 text-secondary-foreground">
-          Join the ranchers already using RANCHGRIT to manage their operations
-          with modern, purpose-built software.
+          We&apos;re building the next generation of tools for the agricultural
+          and ranch industries. Get in touch to learn more.
         </p>
         <div className="mt-8">
           <a
-            href="https://ranchgrit.io"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#contact"
             className="inline-flex items-center justify-center rounded-md bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-accent"
           >
-            Get Started with RANCHGRIT
+            Contact Us
           </a>
         </div>
       </div>

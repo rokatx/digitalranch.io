@@ -7,7 +7,6 @@ import { Menu, X } from 'lucide-react'
 const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Services', href: '#services' },
-  { label: 'Product', href: '#product' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -34,14 +33,6 @@ export function Navbar() {
               {link.label}
             </a>
           ))}
-          <a
-            href="https://ranchgrit.io"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
-          >
-            RANCHGRIT
-          </a>
         </div>
 
         {/* Mobile menu button */}
@@ -67,14 +58,6 @@ export function Navbar() {
               {link.label}
             </a>
           ))}
-          <a
-            href="https://ranchgrit.io"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-2 block rounded-md bg-primary px-4 py-2 text-center text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
-          >
-            RANCHGRIT
-          </a>
         </div>
       )}
     </header>

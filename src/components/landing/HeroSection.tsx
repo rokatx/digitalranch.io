@@ -19,12 +19,10 @@ export function HeroSection() {
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
-              href="https://ranchgrit.io"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contact"
               className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-accent"
             >
-              Explore RANCHGRIT
+              Get In Touch
             </a>
             <a
               href="#about"

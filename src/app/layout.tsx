@@ -17,14 +17,13 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Digital Ranch Technologies LLC',
   description:
-    'Technology solutions for the agricultural and ranch industries. Home of RANCHGRIT — comprehensive ranch management software.',
+    'Technology solutions for the agricultural and ranch industries. Modern software built for the people who feed the world.',
   keywords: [
     'ranch management',
     'agriculture technology',
     'ag-tech',
     'cattle management',
     'livestock software',
-    'RANCHGRIT',
     'Digital Ranch Technologies',
   ],
 }

@@ -11,7 +11,7 @@ export function Footer() {
               {COMPANY.name}
             </p>
             <p className="mt-1 text-xs text-muted-foreground">
-              d/b/a {COMPANY.dba} &middot; {COMPANY.state}
+              {COMPANY.state}
             </p>
           </div>
 

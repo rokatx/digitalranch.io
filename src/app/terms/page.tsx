@@ -16,7 +16,7 @@ export default function TermsPage() {
             Terms of Service
           </h1>
           <p className="mt-2 text-sm text-muted-foreground">
-            {COMPANY.name} d/b/a {COMPANY.dba}
+            {COMPANY.name}
           </p>
           <p className="mt-1 text-sm text-muted-foreground">
             Last updated: {lastUpdated}
@@ -39,8 +39,7 @@ export default function TermsPage() {
 
           <Section title="2. Description of Services">
             <p>
-              Digital Ranch Technologies LLC, operating under the trade name
-              RANCHGRIT, provides software-as-a-service platforms and technology
+              Digital Ranch Technologies LLC provides software-as-a-service platforms and technology
               solutions designed to assist ranch and livestock operations with
               data management, recordkeeping, analysis, and operational support
               tools.
@@ -262,8 +261,6 @@ export default function TermsPage() {
           <Section title="15. Contact Information">
             <p>
               <strong>{COMPANY.name}</strong>
-              <br />
-              d/b/a <strong>{COMPANY.dba}</strong>
               <br />
               Email:{' '}
               <a

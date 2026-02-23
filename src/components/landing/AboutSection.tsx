@@ -16,8 +16,7 @@ export function AboutSection() {
             <p className="text-base leading-7 text-secondary-foreground">
               Digital Ranch Technologies LLC is an ag-tech startup focused on
               building modern technology solutions for the agricultural and ranch
-              industries. We operate under the trade name{' '}
-              <span className="font-semibold text-primary">RANCHGRIT</span>.
+              industries.
             </p>
             <p className="text-base leading-7 text-secondary-foreground">
               We believe ranchers deserve the same quality of software that other
@@ -40,9 +39,8 @@ export function AboutSection() {
               </h3>
             </div>
             <p className="mt-4 text-sm leading-6 text-secondary-foreground">
-              We&apos;re actively building and shipping. Early adopters are
-              already using RANCHGRIT in production. We move fast, listen to our
-              users, and ship features that matter to real ranch operations.
+              We&apos;re actively building and shipping. We move fast, listen to
+              our users, and ship features that matter to real ranch operations.
             </p>
           </div>
         </div>
