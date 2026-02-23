@@ -1,9 +1,6 @@
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-background">
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-earth/10" />
-
       <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-40">
         <div className="max-w-3xl">
           <p className="text-sm font-medium uppercase tracking-widest text-primary">

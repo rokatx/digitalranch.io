@@ -1,6 +1,6 @@
 export function CTASection() {
   return (
-    <section className="bg-gradient-to-r from-earth/20 via-primary/10 to-earth/20 py-16 sm:py-20">
+    <section className="bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5 py-16 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
           Ready to modernize your ranch operations?
