@@ -14,6 +14,9 @@ export function HeroSection() {
             chute to the office. Modern tools designed for the people who feed
             the world.
           </p>
+          <p className="mt-6 text-sm font-medium tracking-widest text-muted-foreground uppercase">
+            ★ Made in Texas
+          </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
               href="#contact"
