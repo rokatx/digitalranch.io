@@ -11,7 +11,7 @@ export function CTASection() {
         </p>
         <div className="mt-8">
           <a
-            href="#contact"
+            href="mailto:info@digitalranch.io"
             className="inline-flex items-center justify-center rounded-md bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-accent"
           >
             Contact Us
