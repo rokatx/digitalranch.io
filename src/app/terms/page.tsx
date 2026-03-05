@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: `Terms of Service | ${COMPANY.name}`,
 }
 
-const lastUpdated = 'February 2026'
+const lastUpdated = 'March 2026'
 
 export default function TermsPage() {
   return (
@@ -231,19 +231,74 @@ export default function TermsPage() {
             </p>
             <p>
               Upon termination, your right to use the Services will immediately
-              cease.
+              cease. We will delete or anonymize your personal data within
+              ninety (90) days of account termination, except where retention is
+              required by applicable law or to resolve outstanding disputes.
+            </p>
+            <p>
+              You may also terminate your account at any time through the account
+              settings within the Services.
             </p>
           </Section>
 
-          <Section title="13. Governing Law and Venue">
+          <Section title="13. Dispute Resolution — Mandatory Arbitration">
+            <p className="font-semibold text-foreground">
+              PLEASE READ THIS SECTION CAREFULLY. IT AFFECTS YOUR LEGAL RIGHTS.
+            </p>
             <p>
               These Terms are governed by the laws of the State of Texas, without
               regard to conflict of law principles.
             </p>
             <p>
-              Any dispute arising out of or relating to these Terms or the
-              Services shall be resolved exclusively in the state or federal
-              courts located in Texas.
+              <strong>Informal Resolution.</strong> Before initiating any formal
+              proceeding, you agree to first contact us at{' '}
+              <a
+                href={`mailto:${COMPANY.email}`}
+                className="text-primary hover:text-accent"
+              >
+                {COMPANY.email}
+              </a>{' '}
+              and give us thirty (30) days to attempt to resolve the dispute
+              informally.
+            </p>
+            <p>
+              <strong>Binding Arbitration.</strong> If informal resolution fails,
+              any dispute, claim, or controversy arising out of or relating to
+              these Terms or the Services shall be resolved by binding individual
+              arbitration administered by the American Arbitration Association
+              (&ldquo;AAA&rdquo;) under its Consumer or Commercial Arbitration Rules, as
+              applicable. The arbitration shall take place in Texas, or via
+              videoconference if both parties agree. The arbitrator&rsquo;s decision
+              shall be final and binding and may be entered as a judgment in any
+              court of competent jurisdiction.
+            </p>
+            <p>
+              <strong>Class Action Waiver.</strong> YOU AND DIGITAL RANCH
+              TECHNOLOGIES AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER
+              ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR
+              CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING.
+              The arbitrator may not consolidate more than one person&rsquo;s claims
+              and may not preside over any form of class or representative
+              proceeding.
+            </p>
+            <p>
+              <strong>Exceptions.</strong> Either party may seek emergency
+              injunctive or other equitable relief in a court of competent
+              jurisdiction in Texas to prevent irreparable harm pending
+              arbitration. Claims for intellectual property infringement are
+              exempt from this arbitration requirement.
+            </p>
+            <p>
+              <strong>Opt-Out.</strong> You may opt out of this arbitration
+              agreement by sending written notice to{' '}
+              <a
+                href={`mailto:${COMPANY.email}`}
+                className="text-primary hover:text-accent"
+              >
+                {COMPANY.email}
+              </a>{' '}
+              within thirty (30) days of first accepting these Terms. Your
+              opt-out will not affect any other provisions of these Terms.
             </p>
           </Section>
 

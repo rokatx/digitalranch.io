@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: `Privacy Policy | ${COMPANY.name}`,
 }
 
-const lastUpdated = 'February 2026'
+const lastUpdated = 'March 2026'
 
 export default function PrivacyPage() {
   return (
@@ -27,10 +27,15 @@ export default function PrivacyPage() {
               Digital Ranch Technologies LLC (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) is committed to
               protecting your privacy. This Privacy Policy explains how we
               collect, use, disclose, and safeguard your information when you
-              visit our website or use our services.
+              visit our website (digitalranch.io) or contact us through it.
             </p>
             <p>
-              By using our Services, you consent to the data practices described
+              This policy applies to this marketing website only. If you are a
+              RanchGrit platform user, a separate Privacy Policy governing your
+              account and operational data is available within the platform.
+            </p>
+            <p>
+              By using this website, you consent to the data practices described
               in this policy.
             </p>
           </Section>
@@ -41,117 +46,116 @@ export default function PrivacyPage() {
             </p>
             <ul>
               <li>
-                Name, email address, and contact information when you create an
-                account or contact us
+                Name, email address, and message when you submit the contact
+                form on this website
               </li>
-              <li>
-                Ranch and operational data you input into the platform
-              </li>
-              <li>
-                Payment information processed through our third-party payment
-                providers
-              </li>
-              <li>Communications you send to us</li>
             </ul>
             <p>
               <strong>Information Collected Automatically:</strong>
             </p>
-            <ul>
-              <li>
-                Device information (browser type, operating system, device
-                identifiers)
-              </li>
-              <li>
-                Usage data (pages visited, features used, time spent)
-              </li>
-              <li>
-                Log data (IP address, access times, referring URLs)
-              </li>
-              <li>
-                Cookies and similar tracking technologies
-              </li>
-            </ul>
+            <p>
+              This website does not use analytics software, advertising trackers,
+              or fingerprinting technologies. We do not set cookies on your
+              device, and we do not collect device identifiers or track your
+              browsing behavior.
+            </p>
+            <p>
+              This website loads fonts from Google Fonts. When your browser
+              requests a font, Google&rsquo;s servers receive your IP address as part
+              of the standard HTTP request. We have no control over Google&rsquo;s
+              handling of that data. See{' '}
+              <a
+                href="https://policies.google.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:text-accent"
+              >
+                Google&rsquo;s Privacy Policy
+              </a>{' '}
+              for details.
+            </p>
           </Section>
 
           <Section title="3. How We Use Your Information">
-            <p>We use the information we collect to:</p>
+            <p>We use contact form submissions solely to:</p>
             <ul>
-              <li>Provide, operate, and maintain our Services</li>
-              <li>
-                Improve, personalize, and expand our Services
-              </li>
-              <li>
-                Communicate with you, including customer support and updates
-              </li>
-              <li>
-                Process transactions and send related information
-              </li>
-              <li>
-                Analyze usage patterns to improve user experience
-              </li>
-              <li>
-                Detect, prevent, and address technical issues or security
-                threats
-              </li>
-              <li>Comply with legal obligations</li>
+              <li>Respond to your inquiry</li>
+              <li>Follow up on sales or partnership discussions you initiate</li>
             </ul>
+            <p>
+              We do not use your contact information for unsolicited marketing.
+            </p>
           </Section>
 
           <Section title="4. How We Share Your Information">
             <p>
-              We do not sell your personal information. We may share your
-              information in the following circumstances:
+              We do not sell your personal information. We share your information
+              only in the following limited circumstances:
             </p>
             <ul>
               <li>
-                <strong>Service Providers:</strong> Third-party vendors who
-                assist in operating our Services (hosting, analytics, payment
-                processing)
+                <strong>Formspree:</strong> Contact form submissions are
+                processed by Formspree, Inc. (formspree.io), which receives your
+                name, email address, and message in order to deliver your
+                inquiry to us. Formspree&rsquo;s privacy policy is available at{' '}
+                <a
+                  href="https://formspree.io/legal/privacy-policy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-accent"
+                >
+                  formspree.io/legal/privacy-policy
+                </a>
+                .
               </li>
               <li>
                 <strong>Legal Requirements:</strong> When required by law,
-                regulation, or legal process
+                regulation, or legal process.
               </li>
               <li>
                 <strong>Business Transfers:</strong> In connection with a
-                merger, acquisition, or sale of assets
+                merger, acquisition, or sale of assets, your information may be
+                transferred as part of that transaction.
               </li>
               <li>
                 <strong>Protection of Rights:</strong> To protect the safety,
                 rights, or property of Digital Ranch Technologies, our users, or
-                the public
+                the public.
               </li>
             </ul>
           </Section>
 
           <Section title="5. Data Retention">
             <p>
-              We retain your information for as long as your account is active or
-              as needed to provide you Services. We may also retain and use your
-              information to comply with legal obligations, resolve disputes, and
-              enforce our agreements.
+              Contact form submissions are retained by Formspree according to
+              their data retention policy. We retain email correspondence for as
+              long as needed to support the business relationship initiated by
+              your inquiry, or as required by law.
             </p>
             <p>
-              When you request account deletion, we will delete or anonymize your
-              personal data within a reasonable timeframe, except where retention
-              is required by law.
+              You may request deletion of your contact information by emailing
+              us at{' '}
+              <a
+                href={`mailto:${COMPANY.email}`}
+                className="text-primary hover:text-accent"
+              >
+                {COMPANY.email}
+              </a>
+              .
             </p>
           </Section>
 
           <Section title="6. Your Rights and Choices">
-            <p>Depending on your location, you may have the right to:</p>
+            <p>You have the right to:</p>
             <ul>
               <li>
-                Access the personal information we hold about you
+                Request access to any personal information we hold about you
               </li>
               <li>
-                Request correction of inaccurate personal information
+                Request correction of inaccurate information
               </li>
               <li>Request deletion of your personal information</li>
-              <li>
-                Object to or restrict certain processing of your data
-              </li>
-              <li>Opt out of marketing communications</li>
+              <li>Opt out of any future communications from us</li>
             </ul>
             <p>
               To exercise any of these rights, contact us at{' '}
@@ -167,65 +171,54 @@ export default function PrivacyPage() {
 
           <Section title="7. Cookies and Tracking Technologies">
             <p>
-              We use cookies and similar tracking technologies to collect
-              information about your browsing activities. You can control cookies
-              through your browser settings. Disabling cookies may affect the
-              functionality of certain features.
+              This website does not set cookies on your device. We do not use
+              analytics, advertising, or tracking cookies of any kind.
             </p>
-            <p>We may use the following types of cookies:</p>
-            <ul>
-              <li>
-                <strong>Essential Cookies:</strong> Required for the Services to
-                function properly
-              </li>
-              <li>
-                <strong>Analytics Cookies:</strong> Help us understand how
-                visitors interact with our Services
-              </li>
-              <li>
-                <strong>Preference Cookies:</strong> Remember your settings and
-                preferences
-              </li>
-            </ul>
+            <p>
+              Your browser may cache standard web assets (HTML, CSS, fonts) for
+              performance. This is controlled by your browser, not by us.
+            </p>
           </Section>
 
           <Section title="8. Children&apos;s Privacy">
             <p>
-              Our Services are not directed to individuals under the age of 13.
-              We do not knowingly collect personal information from children
-              under 13. If we become aware that a child under 13 has provided us
-              with personal information, we will take steps to delete such
-              information.
+              Our website and services are not directed to individuals under the
+              age of 18. We do not knowingly collect personal information from
+              anyone under 18. If you believe a minor has submitted information
+              through this website, contact us and we will delete it promptly.
             </p>
           </Section>
 
           <Section title="9. Security">
             <p>
-              We implement appropriate technical and organizational measures to
-              protect your personal information against unauthorized access,
-              alteration, disclosure, or destruction. However, no method of
-              transmission over the Internet or electronic storage is 100%
-              secure.
+              This website is served over HTTPS (TLS encryption in transit). We
+              do not store contact form data on our own servers — submissions are
+              handled by Formspree and delivered directly to our inbox.
+            </p>
+            <p>
+              No method of electronic transmission is 100% secure. We encourage
+              you not to send sensitive information (such as financial or health
+              data) through the contact form.
             </p>
           </Section>
 
           <Section title="10. Third-Party Links">
             <p>
-              Our Services may contain links to third-party websites or services.
-              We are not responsible for the privacy practices of these third
-              parties. We encourage you to review the privacy policies of any
-              third-party sites you visit.
+              Our website may contain links to third-party websites or services.
+              We are not responsible for the privacy practices of those third
+              parties. We encourage you to review their privacy policies before
+              providing any personal information.
             </p>
           </Section>
 
           <Section title="11. Changes to This Policy">
             <p>
-              We may update this Privacy Policy from time to time. We will notify
-              you of material changes by posting the updated policy on our
-              website with a new &ldquo;Last updated&rdquo; date.
+              We may update this Privacy Policy from time to time. We will
+              notify you of material changes by posting the updated policy on
+              this page with a new &ldquo;Last updated&rdquo; date.
             </p>
             <p>
-              Continued use of the Services after changes constitutes acceptance
+              Continued use of this website after changes constitutes acceptance
               of the revised policy.
             </p>
           </Section>
