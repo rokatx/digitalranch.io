@@ -22,9 +22,10 @@ export function AboutSection() {
               himself.
             </p>
             <p className="text-base leading-7 text-secondary-foreground">
-              We own and operate a ranch. Since 2025, we run cattle on it too.
-              So when we say we understand what ranch management software needs
-              to do, we mean it from the saddle up.
+              We own and operate a ranch. Since 2025, we&apos;ve been running a
+              small registered Red Angus herd &mdash; learning the hard way, and
+              leaning on experienced ranchers who&apos;ve been doing this far
+              longer than us.
             </p>
             <p className="text-base leading-7 text-secondary-foreground">
               All hat, no cattle isn&apos;t our style. We built this running
@@ -43,8 +44,8 @@ export function AboutSection() {
               <Image
                 src="https://media.licdn.com/dms/image/v2/D5603AQEBkcSnTLIMsA/profile-displayphoto-scale_400_400/B56Zx46LG6J4Ag-/0/1771555043951?e=1774483200&v=beta&t=bmXSp91CR-fv9e5LQ24wOzeRQEg0qjEUF_npQ04Owh4"
                 alt="Ronny Katzenberger"
-                width={64}
-                height={64}
+                width={128}
+                height={128}
                 className="rounded-full object-cover shrink-0"
               />
               <div>
