@@ -3,16 +3,15 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
-import { ContactModal } from '@/components/landing/ContactModal'
 
 const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Services', href: '#services' },
+  { label: 'Contact', href: '#contact' },
 ]
 
 export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [contactOpen, setContactOpen] = useState(false)
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
@@ -34,12 +33,6 @@ export function Navbar() {
               {link.label}
             </a>
           ))}
-          <button
-            onClick={() => setContactOpen(true)}
-            className="text-sm text-secondary-foreground transition-colors hover:text-primary"
-          >
-            Contact
-          </button>
         </div>
 
         {/* Mobile menu button */}
@@ -65,16 +58,8 @@ export function Navbar() {
               {link.label}
             </a>
           ))}
-          <button
-            className="block py-3 text-sm text-secondary-foreground transition-colors hover:text-primary"
-            onClick={() => { setMobileOpen(false); setContactOpen(true) }}
-          >
-            Contact
-          </button>
         </div>
       )}
-
-      <ContactModal open={contactOpen} onClose={() => setContactOpen(false)} />
     </header>
   )
 }
